@@ -29,6 +29,7 @@ Edit the file `~/.tmux.conf`
 `tmux ls` to list running sessions
 `tmux attach -t 0` to attach to session `0`
 `tmux rename-session -t 0 <session name>` to rename session `0` to the given session name
+`tmux kill-session -t 0` to kill session `0`
 
 `C-a C-s` to save the session (plugin *resurect*)
 `C-a C-r` to restor the session (plugin *resurect*)
