@@ -22,6 +22,8 @@ Edit the file `~/.tmux.conf`
 
 `C-a $` to rename the current session
 `C-a s` to display the active sessions, `q` or `Esc` to exit this view
+`C-a (` to go the previous session
+`C-a )` to go the next session
 
 `C-a d` to detach from the current session
 `C-a D` to detach from a session to choose
@@ -49,6 +51,10 @@ Edit the file `~/.tmux.conf`
 `C-a -` to split horizontally
 `C-a <arrow key>` to switch to a different pane
 `C-a z` to make the current pane go full screen, and again to shrink it back
+`C-a {` to move the current pane to the previous position
+`C-a }` to move the current pane to the next position
+`C-a !` to move the current pane into a new separate window (‘break pane’)
+`C-a q` to display pane numbers for a short while
 `C-a x` to kill the current pane (with confirmation)
 `exit` or `C-d` to exit (without confirmation)
 
